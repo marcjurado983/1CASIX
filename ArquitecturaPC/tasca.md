@@ -56,6 +56,7 @@ Hem buidat ja la caixa, per complet acabem treien posa disc
 ## PROCÉS DE CONSTRUIR
 ## ABANS DE POSAR ELS COMPONENTS, HE NETEJAT AMB AIRE COMPRIMIT TOTA LA POLS
 
+<img src="img/IMG_2313.jpg" alt="Muntant ordinador " width="300">
 
 Posem la placa base abans de fer res
 
