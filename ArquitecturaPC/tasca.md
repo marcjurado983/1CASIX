@@ -26,3 +26,7 @@ Jo després, em fixo en desatornillar, placa base i alimentació i cables
 desconectem el disc dur de la placa base
 
 <img src="img/IMG_2304.jpg" alt="Ordinador abans de desmuntar" width="300">
+
+seguidament el ventilador, la refrigeració, la desconectem totalment de la placa base
+
+<img src="img/IMG_2305.jpg" alt="Ordinador abans de desmuntar" width="300">
