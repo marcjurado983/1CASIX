@@ -71,18 +71,11 @@ després posem processador i pasta termica per la temperatura, i tanquem el sock
 
 <img src="img/IMG_2317.jpg" alt="Muntant ordinador " width="300">
 
-
-seguidament el ventilador per refrigeració
-
-
-
-
 disc dur per conectar a placa base
-
 
 <img src="img/IMG_2319.jpg" alt="Muntant ordinador " width="300">
 
-coneccions…
+seguidament el ventilador per refrigeració
 
 <img src="img/IMG_2320.jpg" alt="Muntant ordinador " width="300">
 
