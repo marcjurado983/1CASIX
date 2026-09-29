@@ -21,5 +21,5 @@ Primer pas, tenim el PC montar, hem tret la tapa
 
 Jo després, em fixo en desatornillar, placa base i alimentació i cables
 
-<img src="img/IMG_2302.jpg" alt="Ordinador abans de desmuntar" width="300">
+<img src="img/IMG_2302.jpg" alt="Ordinador abans de desmuntar" width="300">  <img src="img/IMG_2303.jpg" alt="Ordinador abans de desmuntar" width="300">
 
