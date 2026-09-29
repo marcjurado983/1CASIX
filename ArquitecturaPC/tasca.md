@@ -83,7 +83,7 @@ disc dur per conectar a placa base
 
 <img src="img/IMG_2321.jpg" alt="Muntant ordinador " width="300"> 
 
-conecciones…
+conecions…
 
 <img src="img/IMG_2322.jpg" alt="Muntant ordinador " width="300">
 
