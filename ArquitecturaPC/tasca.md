@@ -88,15 +88,11 @@ coneccions…
 
 després font d'alimentació, amb cargols la posem
 
-<img src="img/IMG_2321.jpg" alt="Muntant ordinador " width="300"> <img src="img/IMG_2322.jpg" alt="Muntant ordinador " width="300">
+<img src="img/IMG_2321.jpg" alt="Muntant ordinador " width="300"> 
 
+<img src="img/IMG_2322.jpg" alt="Muntant ordinador " width="300">
 
-
-<img src="img/IMG_2323.jpg" alt="Muntant ordinador " width="300">
-
-
-
-<img src="img/IMG_2324.jpg" alt="Muntant ordinador " width="300">
+<img src="img/IMG_2323.jpg" alt="Muntant ordinador " width="300"> <img src="img/IMG_2324.jpg" alt="Muntant ordinador " width="300">
 
 
 
