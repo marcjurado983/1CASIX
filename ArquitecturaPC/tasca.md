@@ -24,6 +24,7 @@ Treballar amb un dels ordinadors del taller per identificar-ne els components, d
 En aquest apartat es mostrarà el procés de desmuntatge de l'ordinador, incloent-hi les fotografies corresponents a cada pas.
 
 Primer pas, tenim el PC montar, hem tret la tapa
-![img/](iMG_2301.jpg)
+## Procés de desmuntatge
+![Ordinador abans de desmuntar](img/IMG_2301.jpg)
 
 
