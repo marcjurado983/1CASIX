@@ -64,7 +64,7 @@ Posem la placa base abans de fer res
 
 posem el posa discs, i seguidament el módul de memoria ram, en els seus pestillos
 
-<img src="img/IMG_2316.jpg" alt="Muntant ordinador " width="300"> <img src="img/IMG_2317.jpg" alt="Muntant ordinador " width="300">
+<img src="img/IMG_2316.jpg" alt="Muntant ordinador " width="300"> 
 
 
 
