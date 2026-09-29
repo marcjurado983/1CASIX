@@ -25,6 +25,6 @@ En aquest apartat es mostrarà el procés de desmuntatge de l'ordinador, incloen
 
 Primer pas, tenim el PC montar, hem tret la tapa
 ## Procés de desmuntatge
-<img src="img/IMG_2301.jpg" alt="Ordinador abans de desmuntar" width="500">
+<img src="img/IMG_2301.jpg" alt="Ordinador abans de desmuntar" width="300">
 
 
