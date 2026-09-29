@@ -23,3 +23,6 @@ Jo després, em fixo en desatornillar, placa base i alimentació i cables
 
 <img src="img/IMG_2302.jpg" alt="Ordinador abans de desmuntar" width="300">  <img src="img/IMG_2303.jpg" alt="Ordinador abans de desmuntar" width="300">
 
+desconectem el disc dur de la placa base
+
+<img src="img/IMG_2304.jpg" alt="Ordinador abans de desmuntar" width="300">
