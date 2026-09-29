@@ -58,7 +58,7 @@ Hem buidat ja la caixa, per complet acabem treien posa disc
 
 <img src="img/IMG_2313.jpg" alt="Muntant ordinador " width="300">
 
-
+Posem la placa base abans de fer res
 
 <img src="img/IMG_2314.jpg" alt="Muntant ordinador " width="300"> <img src="img/IMG_2315.jpg" alt="Muntant ordinador " width="300">
 
