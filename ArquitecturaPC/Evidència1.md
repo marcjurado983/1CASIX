@@ -1,7 +1,3 @@
-# Arquitectura PC
-
-**Marc Jurado**
-
 ## Evidència 1
 
 ### Objectiu
