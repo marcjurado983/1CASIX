@@ -1,4 +1,4 @@
-Evidència 2 — Processador
+## Evidència 2 — Processador
 Informació del processador
 
 En aquesta evidència analitzarem el processador de l'ordinador i les seves principals característiques:
