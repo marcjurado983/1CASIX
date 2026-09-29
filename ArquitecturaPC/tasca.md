@@ -66,37 +66,31 @@ posem el posa discs, i seguidament el módul de memoria ram, en els seus pestill
 
 <img src="img/IMG_2316.jpg" alt="Muntant ordinador " width="300"> 
 
+després posem processador i pasta termica per la temperatura, i tanquem el socket
 
 
 
 <img src="img/IMG_2319.jpg" alt="Muntant ordinador " width="300">
 
 
+ seguidament el ventilador per refrigeració
 
 
 <img src="img/IMG_2320.jpg" alt="Muntant ordinador " width="300">
 
-
+disc dur per conectar a placa base
 
 
 <img src="img/IMG_2321.jpg" alt="Muntant ordinador " width="300"> 
 
-
+conecciones…
 
 <img src="img/IMG_2322.jpg" alt="Muntant ordinador " width="300">
 
+després font d'alimentació, amb cargols la posem
 
 
-<img src="img/IMG_2323.jpg" alt="Muntant ordinador " width="300"> 
+<img src="img/IMG_2323.jpg" alt="Muntant ordinador " width="300"> <img src="img/IMG_2324.jpg" alt="Muntant ordinador " width="300">
 
 
-
-<img src="img/IMG_2324.jpg" alt="Muntant ordinador " width="300">
-
-
-
-<img src="img/IMG_2325.jpg" alt="Muntant ordinador " width="300">
-
-
-
-<img src="img/IMG_2326.jpg" alt="Muntant ordinador" width="300">
+<img src="img/IMG_2325.jpg" alt="Muntant ordinador " width="300"> <img src="img/IMG_2326.jpg" alt="Muntant ordinador" width="300">
