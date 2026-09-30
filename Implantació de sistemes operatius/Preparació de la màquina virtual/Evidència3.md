@@ -68,7 +68,7 @@ Crear usuari nou
 
 Proves amb diferents permisos 
 
-<img src="img/cap39.png" alt="Sistemes Operatius" width="500"> <img src="img/cap40.png" alt="Sistemes Operatius" width="500">
+<img src="img/cap39.png" alt="Sistemes Operatius" width="500"> 
 
 ---
 
