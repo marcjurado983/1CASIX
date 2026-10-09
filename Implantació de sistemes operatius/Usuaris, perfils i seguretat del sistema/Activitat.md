@@ -10,7 +10,7 @@
 
 2. **Llistar els usuaris locals:** obtenir una llista de tots els comptes d'usuari que hi ha a l'ordinador.
    
-  <img src="../../.gitbook/assets/cap51.png" alt="Sistemes Operatius" width="500">
+   <img src="../../.gitbook/assets/cap51.png" alt="Sistemes Operatius" width="500">
   
 3. **Consultar els usuaris gràficament:** trobar els mateixos comptes mitjançant les eines d'administració de Windows.
    
@@ -30,4 +30,4 @@
   
 7. **Identificar els comptes predeterminats:** indicar quins comptes venen creats per defecte amb Windows.
     
-<img src="../../.gitbook/assets/cap56.png" alt="Sistemes Operatius" width="500">
+   <img src="../../.gitbook/assets/cap56.png" alt="Sistemes Operatius" width="500">
