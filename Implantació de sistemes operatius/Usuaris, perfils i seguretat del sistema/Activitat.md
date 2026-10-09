@@ -31,3 +31,9 @@
 7. **Identificar els comptes predeterminats:** indicar quins comptes venen creats per defecte amb Windows.
     
    <img src="../../.gitbook/assets/cap56.png" alt="Sistemes Operatius" width="500">
+
+
+### WINDOWS 10
+
+
+   
