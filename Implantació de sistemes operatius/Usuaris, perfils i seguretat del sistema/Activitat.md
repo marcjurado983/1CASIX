@@ -498,4 +498,9 @@
 
 9. **Revisa els comptes client i admin per assegurar-te que tots dos compleixen la nova política.**
 
+<<<<<<< HEAD
      <img src="../../.gitbook/assets/cap56.png" alt="Sistemes Operatius" width="500">
+=======
+     <img src="../../.gitbook/assets/cap56.png" alt="Sistemes Operatius" width="500">
+   
+>>>>>>> af15776388812b51a58e5b9f9e8db729f3a23a3e
