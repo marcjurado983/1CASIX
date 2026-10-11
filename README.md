@@ -1,3 +1,3 @@
-# 1CASIX
+# 1CASIX MARC JURADO
 
 introduccio:
