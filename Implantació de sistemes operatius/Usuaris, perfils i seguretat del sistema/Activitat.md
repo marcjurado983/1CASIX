@@ -1,4 +1,4 @@
-# Activitat: Usuaris, perfils i seguretat del sistemaaa
+# Activitat: Usuaris, perfils i seguretat del sistema
 
 ## Apartat 1. Usuaris existents
 
