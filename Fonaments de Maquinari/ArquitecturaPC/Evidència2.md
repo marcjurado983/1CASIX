@@ -32,11 +32,7 @@ Mostrar el consum de recursos de l’ordinador CPU, RAM, xarxa, disc, gràfica, 
 
 <img src="../../.gitbook/assets/captura6.png" alt="Processador" width="300">
 
-&#x20;
-
 <img src="../../.gitbook/assets/captura7.png" alt="Processador" width="300">
-
-&#x20;
 
 <img src="../../.gitbook/assets/captura8.png" alt="Processador" width="300">
 

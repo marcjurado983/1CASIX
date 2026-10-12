@@ -4,15 +4,29 @@
 
 ### Apartat 1. Usuaris existents
 
-#### WINDOWS 1000
+#### WINDOWS 10
 
-1. **Identificar l'usuari actual:** comprovar amb quin usuari he iniciat sessió a Windows.
+1. **Identificar l'usuari actual:** comprovar amb quin usuari he iniciat sessió a Windows.&#x20;
 2. **Llistar els usuaris locals:** obtenir una llista de tots els comptes d'usuari que hi ha a l'ordinador.
 3. **Consultar els usuaris gràficament:** trobar els mateixos comptes mitjançant les eines d'administració de Windows.
 4. **Diferenciar els comptes:** identificar quins usuaris he creat jo i quins han estat creats automàticament pel sistema.
 5. **Comprovar els comptes desactivats:** revisar si hi ha usuaris que no poden iniciar sessió perquè estan desactivats.
 6. **Consultar el SID:** trobar l'identificador únic (SID) del meu usuari.
 7. **Identificar els comptes predeterminats:** indicar quins comptes venen creats per defecte amb Windows.
+
+
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172411.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172416.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172420.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172425.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172430.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172434.png" alt=""><figcaption></figcaption></figure>
 
 #### KALI LINUX
 
@@ -22,6 +36,20 @@
 4. **Consulta la llista d'usuaris existents al sistema.**
 5. **Localitza el compte root.**
 6. **Identifica alguns comptes que no corresponen a persones que utilitzen l'ordinador.**
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172437.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172441.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172446.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173157.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172454.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172457.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Apartat 2. Investiga els grups predeterminats
 
@@ -35,6 +63,18 @@
 6. **Identifica els grups als quals pertany el teu usuari actual.**
 7. **Comprova si el teu usuari té privilegis administratius.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173256.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173301.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173304.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173307.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173310.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173314 (1).png" alt=""><figcaption></figcaption></figure>
+
 #### Kali Linux
 
 1. **Consulta els grups existents.**
@@ -42,6 +82,14 @@
 3. **Localitza el grup que permet als usuaris obtenir temporalment privilegis administratius.**
 4. **Comprova quins usuaris pertanyen a aquest grup.**
 5. **Identifica almenys tres grups del sistema que no hagis creat tu.**
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173622.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173626.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173629.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -58,6 +106,10 @@
 5. **Identifica el SID assignat al nou compte.**
 6. **Comprova a quins grups pertany.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173734.png" alt=""><figcaption></figcaption></figure>
+
+
+
 #### Kali Linux
 
 1. **Crea també l'usuari client.**
@@ -68,6 +120,10 @@
 6. **Comprova els altres grups als quals pertany.**
 7. **Verifica que inicialment no disposa de privilegis administratius.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173804.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ***
 
 ### Apartat 4. Crea un grup local
@@ -77,12 +133,22 @@
 1. **Crea un grup local anomenat GrupClients.**
 2. **Afegeix-hi l'usuari client.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173844.png" alt=""><figcaption></figcaption></figure>
+
+
+
 #### Kali Linux
 
 1. **Crea un grup anomenat ClientsLinux.**
 2. **Afegeix-hi client.**
 3. **Comprova que l'usuari apareix com a membre del grup.**
 4. **Inicia una nova sessió amb client i verifica que la nova pertinença al grup s'ha aplicat.**
+
+
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173849.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -97,11 +163,17 @@
 3. **Concedeix-li privilegis administratius.**
 4. **Comprova a quins grups pertany.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173854.png" alt=""><figcaption></figcaption></figure>
+
+
+
 #### Kali Linux
 
 1. **Crea l'usuari admin.**
 2. **Concedeix-li la possibilitat de realitzar tasques administratives mitjançant el mecanisme d'elevació de privilegis de Linux.**
 3. **Comprova els seus grups.**
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173858 (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -117,6 +189,16 @@
 4. **Comprova que pots continuar fent tasques normals amb client.**
 5. **Repeteix l'operació utilitzant admin i compara el comportament dels dos comptes.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174127 (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174130.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174135 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
 #### Kali Linux
 
 1. **Inicia sessió amb client.**
@@ -125,6 +207,10 @@
 4. **Inicia sessió amb admin.**
 5. **Repeteix l'operació utilitzant el mecanisme d'elevació de privilegis.**
 6. **Verifica que admin pot executar temporalment una operació com a root.**
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174321.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -142,6 +228,12 @@
 8. **Comprova que disposa del seu propi Escriptori, Documents i altres directoris de perfil.**
 9. **Localitza el perfil de client des del compte admin.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174352.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174357.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ***
 
 ### Apartat 8. Investiga els directoris personals de Kali Linux
@@ -153,6 +245,10 @@
 5. **Inicia sessió amb admin.**
 6. **Identifica el seu directori personal.**
 7. **Compara'l amb el de client.**
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174514.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -169,6 +265,14 @@
 7. **Observa els permisos de client.**
 8. **Comprova si els permisos provenen de la carpeta superior.**
 
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174546.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174550.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174554.png" alt=""><figcaption></figcaption></figure>
+
+
+
 #### Kali Linux
 
 1. **Inicia sessió amb client.**
@@ -179,6 +283,14 @@
 6. **Inicia sessió amb un altre usuari estàndard.**
 7. **Intenta accedir al contingut de la carpeta.**
 8. **Torna a client i comprova que continua tenint-hi accés.**
+
+
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174708.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174712 (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -194,10 +306,12 @@
 8. **Comprova que la configuració ha quedat aplicada.**
 9. **Revisa els comptes client i admin per assegurar-te que tots dos compleixen la nova política.**
 
-## <<<<<<< HEAD&#x20;
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174800.png" alt=""><figcaption></figcaption></figure>
 
-```
- <img src="../../.gitbook/assets/cap56.png" alt="Sistemes Operatius" width="500">
-```
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174802 (1).png" alt=""><figcaption></figcaption></figure>
 
-> > > > > > > af15776388812b51a58e5b9f9e8db729f3a23a3e
+
+
+
+
+Sistemes Operatius Marc Jurado Valero

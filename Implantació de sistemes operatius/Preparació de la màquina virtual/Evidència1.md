@@ -8,15 +8,13 @@ Configuració 1: les dues màquines en NAT comunicació més internet Totes dues
 
 <img src="../../.gitbook/assets/cap1.png" alt="Sistemes Operatius" width="500">
 
-&#x20;\---&#x20;
+\---
 
 <img src="../../.gitbook/assets/cap2.png" alt="Sistemes Operatius" width="500">
 
 Configuració 2: Xarxa interna les dues no tenen conexio a internet pero es comuniquen aïllant la xarxa
 
 <img src="../../.gitbook/assets/cap3.png" alt="Sistemes Operatius" width="500">
-
-&#x20;
 
 <img src="../../.gitbook/assets/cap4.png" alt="Sistemes Operatius" width="500">
 
@@ -28,15 +26,11 @@ Identificar IP, màscara, gateway, DNS i MAC de la màquina Windows i de la màq
 
 <img src="../../.gitbook/assets/cap5.png" alt="Sistemes Operatius" width="500">
 
-&#x20;
-
 <img src="../../.gitbook/assets/cap6.png" alt="Sistemes Operatius" width="500">
 
 ## Màquina Kali
 
 <img src="../../.gitbook/assets/cap7.png" alt="Sistemes Operatius" width="500">
-
-&#x20;
 
 <img src="../../.gitbook/assets/cap8.png" alt="Sistemes Operatius" width="500">
 
