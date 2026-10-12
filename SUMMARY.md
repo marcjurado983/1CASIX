@@ -11,5 +11,4 @@
     * [Evidència 1: Connectant màquines virtuals](<Implantació de sistemes operatius/Preparació de la màquina virtual/Evidència1.md>)
     * [Evidència 2: Comandes bàsiques](<Implantació de sistemes operatius/Preparació de la màquina virtual/Evidència2.md>)
     * [Evidència 3: Permisos](<Implantació de sistemes operatius/Preparació de la màquina virtual/Evidència3.md>)
-    * [img](<Implantació de sistemes operatius/Preparació de la màquina virtual/img/readme.md>)
   * [Usuaris, perfils i seguretat del sistema](<Implantació de sistemes operatius/Usuaris, perfils i seguretat del sistema/Activitat.md>)
