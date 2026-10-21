@@ -6,15 +6,13 @@
 
 #### WINDOWS 10
 
-1. **Identificar l'usuari actual:** comprovar amb quin usuari he iniciat sessió a Windows.&#x20;
+1. **Identificar l'usuari actual:** comprovar amb quin usuari he iniciat sessió a Windows.
 2. **Llistar els usuaris locals:** obtenir una llista de tots els comptes d'usuari que hi ha a l'ordinador.
 3. **Consultar els usuaris gràficament:** trobar els mateixos comptes mitjançant les eines d'administració de Windows.
 4. **Diferenciar els comptes:** identificar quins usuaris he creat jo i quins han estat creats automàticament pel sistema.
 5. **Comprovar els comptes desactivats:** revisar si hi ha usuaris que no poden iniciar sessió perquè estan desactivats.
 6. **Consultar el SID:** trobar l'identificador únic (SID) del meu usuari.
 7. **Identificar els comptes predeterminats:** indicar quins comptes venen creats per defecte amb Windows.
-
-
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172411.png" alt=""><figcaption></figcaption></figure>
 
@@ -49,8 +47,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 172457.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### Apartat 2. Investiga els grups predeterminats
 
 #### Windows 10
@@ -73,7 +69,7 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173310.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173314 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173314.png" alt=""><figcaption></figcaption></figure>
 
 #### Kali Linux
 
@@ -88,8 +84,6 @@
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173626.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173629.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ***
 
@@ -108,8 +102,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173734.png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### Kali Linux
 
 1. **Crea també l'usuari client.**
@@ -122,8 +114,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173804.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ***
 
 ### Apartat 4. Crea un grup local
@@ -135,8 +125,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173844.png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### Kali Linux
 
 1. **Crea un grup anomenat ClientsLinux.**
@@ -144,11 +132,7 @@
 3. **Comprova que l'usuari apareix com a membre del grup.**
 4. **Inicia una nova sessió amb client i verifica que la nova pertinença al grup s'ha aplicat.**
 
-
-
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173849.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ***
 
@@ -165,15 +149,13 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173854.png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### Kali Linux
 
 1. **Crea l'usuari admin.**
 2. **Concedeix-li la possibilitat de realitzar tasques administratives mitjançant el mecanisme d'elevació de privilegis de Linux.**
 3. **Comprova els seus grups.**
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 173858 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -189,15 +171,11 @@
 4. **Comprova que pots continuar fent tasques normals amb client.**
 5. **Repeteix l'operació utilitzant admin i compara el comportament dels dos comptes.**
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174127 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174127.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174130.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174135 (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174135.png" alt=""><figcaption></figcaption></figure>
 
 #### Kali Linux
 
@@ -209,8 +187,6 @@
 6. **Verifica que admin pot executar temporalment una operació com a root.**
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174321.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ***
 
@@ -232,8 +208,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174357.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ***
 
 ### Apartat 8. Investiga els directoris personals de Kali Linux
@@ -247,8 +221,6 @@
 7. **Compara'l amb el de client.**
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174514.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ***
 
@@ -271,8 +243,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174554.png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### Kali Linux
 
 1. **Inicia sessió amb client.**
@@ -284,13 +254,9 @@
 7. **Intenta accedir al contingut de la carpeta.**
 8. **Torna a client i comprova que continua tenint-hi accés.**
 
-
-
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174708.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174712 (1).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174712.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -308,10 +274,6 @@
 
 <figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174800.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174802 (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2026-10-12 174802.png" alt=""><figcaption></figcaption></figure>
 
 Sistemes Operatius Marc Jurado Valero
