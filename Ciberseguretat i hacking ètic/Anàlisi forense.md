@@ -244,3 +244,81 @@ Els dos hashes són diferents. Per tant, no es pot confirmar que el fitxer recup
 STRINGS I GREPS
 
 <figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Evidència 2: Reconstrucció i informe <a href="#h.kgcazpchxop9_l" id="h.kgcazpchxop9_l"></a>
+
+
+
+**Línia de temps**
+
+Accions simulades (sistema instal·lat, EDT, 20/10/2026)Accions simulades (sistema instal·lat, EDT, 20/10/2026)
+
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+**Recollida de dades**
+
+**04:09:49 a 04:11**: es desen data, `timedatectl`, `journalctl` i historial. Font: `registres/`. Demostra l’hora del sistema, però amb **NTP inactiu i rellotge no sincronitzat**.
+
+**Adquisició (Kali Live, UTC)**
+
+* **10:09:50 a 10:11:28**: `dd` de `/dev/sdb` a `kali.dd`. Font: `dd_inici/dd_fi/dd_resultat.txt`. Demostra una còpia de 86.000.000.000 bytes (80 GiB), amb 20503+1 registres entrats i sortits.
+* **10:12:39**: hash inicial de `kali.dd`: `88cdfb99…a9c3`.
+
+**Anàlisi (Kali instal·lat)**
+
+* **06:27:52 EDT (10:27:52 UTC)**: hash final de `kali.dd`: idèntic al d’abans.
+* **Anàlisi**: `mmls` mostra la partició Linux a l’offset 2048. `fls` troba `document.txt` (inodes 700765 i 700760) i `prova_temps.txt` (700721). `icat 700765` recupera “Lorem ipsum / contingut modificat”. `istat 700721` confirma les dates falsificades.
+
+En el meu cas \
+**Atenció amb les dates de `kali.dd`**: el fitxer té data del 20/10 06:11 EDT perquè és el moment de **crear la imatge**, no de les accions. Les dates reals de les accions són les de dins de la imatge (03:43–04:08).
+
+
+
+
+
+#### Pas 2: Integritat
+
+* **Hash inicial**: `88cdfb99dd42f8510c9aecb6b67beacff8dc89408a59791c6e995e925023a9c3`
+* **Hash final**: `88cdfb99dd42f8510c9aecb6b67beacff8dc89408a59791c6e995e925023a9c3`
+
+**Coincideixen.** Vol dir que la imatge **no s’ha modificat** durant l’anàlisi (ni per mont, ni per error) i que les proves són fiables. Si no coincidissin, la imatge estaria alterada i no serviria com a prova.
+
+
+
+**Pas 3: Informe i cadena de custòdia**
+
+**Accions simulades:** he creat `secret_atac.txt`, `document.txt` i `imatge.jpg`. Després he esborrat el secret i la imatge, he modificat `document.txt` amb `chmod 600`, i he creat `prova_temps.txt` amb les dates falsificades a 2018.
+
+**Discs i adquisició:** el disc principal té 80 GB i el disc d’auditoria 20 GB (ext4, etiqueta `AUDITORIA`). A Kali Live el principal és `/dev/sdb`, i ho vaig comprovar amb `lsblk` abans de copiar.\
+`sudo dd if=/dev/sdb of=/mnt/auditoria/imatge/kali.dd bs=4M status=progress conv=fsync`
+
+**Hash inicial i final:** els dos són `88cdfb99…a9c3`. Coincideixen, per tant la imatge no s’ha modificat.
+
+**Eines:** `lsblk`, `fdisk`, `mkfs.ext4`, `dd`, `sha256sum`, `stat`, `touch`, `timedatectl`, `journalctl`, Sleuth Kit (`mmls`, `fls`, `istat`, `icat`), `strings`, `grep` i PhotoRec.
+
+**Evidències trobades:**
+
+* He recuperat el contingut de `document.txt` amb `icat`.
+* He detectat la falsificació de `prova_temps.txt`: Access/Modify diuen 2018, però Change/Birth són del 2026.
+* Els registres mostren les ordres executades (`rm`, `chmod`, `touch`).
+
+**Limitacions:**
+
+* No he pogut recuperar `secret_atac.txt` (ni `fls` ni `strings` el troben).
+* PhotoRec no recupera noms, i el JPEG que vaig comprovar no és necessàriament `imatge.jpg`.
+* El rellotge no estava sincronitzat i hi ha dues zones horàries (EDT i UTC).
+* Només hi ha hash de la imatge, no del disc original.
+
+**Línia de temps:** és la imatge de l’apartat anterior.
+
+**Tres mesures:**
+
+1. **Activar NTP i registrar en UTC.** El rellotge no estava sincronitzat i es barrejaven zones horàries.
+2. **Fer hash del disc origen i de la imatge**, amb el disc en només lectura. Només tenim el hash de la imatge, així que no es pot provar que sigui idèntica al disc.
+3. **Còpies de seguretat i `auditd`.** No hem pogut recuperar `secret_atac.txt`, i la falsificació de dates només es va descobrir pel _Change time_.
+
+**Cadena de custòdia:** Marc Jurado crea la prova (03:43–04:11 EDT), adquireix la imatge (10:09–10:11 UTC), fa el hash inicial (10:12 UTC), analitza en només lectura (`chmod 444`) i fa el hash final (06:27 EDT), que coincideix. El suport és el disc `AUDITORIA`
+
+`Marc Jurado`
