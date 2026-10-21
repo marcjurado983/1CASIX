@@ -7,6 +7,8 @@ description: Marc Jurado Valero
 
 ***
 
+<figure><img src="../.gitbook/assets/images.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Preparació: afegeix un disc d’auditoria
 
 Amb la màquina virtual apagada, afegeix un segon disc virtual des de VirtualBox o VMware a la màquina Kali Linux.
