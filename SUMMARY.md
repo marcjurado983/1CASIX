@@ -13,5 +13,5 @@
     * [Evidència 3: Permisos](<Implantació de sistemes operatius/Preparació de la màquina virtual/Evidència3.md>)
   * [Usuaris, perfils i seguretat del sistema](<Implantació de sistemes operatius/Usuaris, perfils i seguretat del sistema/Activitat.md>)
 
-* [Ciberseguretat i hacking ètic](Ciberseguretat-i--hacking-ètic/.gitkeep.md)
+* [Ciberseguretat i hacking ètic](Ciberseguretat-i--hacking-ètic/)
     * [Anàlisi forense](<Ciberseguretat i hacking ètic/Anàlisi forense.md>)
