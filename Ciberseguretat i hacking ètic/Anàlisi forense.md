@@ -1,5 +1,6 @@
 ---
 nom: Marc Jurado
+description: Marc Jurado Valero
 ---
 
 # Anàlisi forense
@@ -32,15 +33,13 @@ FORMATAR EL DISC
 
 
 
-Crear punt de muntatge,Muntar
+CREAR PUNT DE MUNTATGE I MUNTAR
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2026-10-21 110723.png" alt=""><figcaption></figcaption></figure>
 
 
 
-
-
-Crear carpetes
+CREAR CARPETES DEMANADES
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2026-10-21 110726.png" alt=""><figcaption></figcaption></figure>
 
@@ -170,9 +169,7 @@ Calcula el hash SHA-256 de kali.dd
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-No modifica el contingut, així que el hash no canvia.
-
-<br>
+No modifica el contingut, així que el hash no canvia.<br>
 
 Torna a iniciar Kali des del disc principal
 
