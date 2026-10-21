@@ -287,7 +287,9 @@ En el meu cas \
 
 
 
-**Pas 3: Informe i cadena de custòdia**
+**Pas 3: INFORME I CADENA DE CUSTÒDIA**
+
+
 
 **Accions simulades:** he creat `secret_atac.txt`, `document.txt` i `imatge.jpg`. Després he esborrat el secret i la imatge, he modificat `document.txt` amb `chmod 600`, i he creat `prova_temps.txt` amb les dates falsificades a 2018.
 
