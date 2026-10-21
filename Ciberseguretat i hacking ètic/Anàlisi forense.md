@@ -7,7 +7,7 @@ description: Marc Jurado Valero
 
 ***
 
-<img src="images.jpg" alt="" width="300">
+<figure><img src="../.gitbook/assets/images.jpg" alt="" width="300"><figcaption></figcaption></figure>
 
 ## Preparació: afegeix un disc d’auditoria
 
